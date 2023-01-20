@@ -15,16 +15,24 @@
 </script>
 
 <style>
-@import "vue3-notion/dist/style.css"; /* optional Notion-like styles */
+/* @import "vue3-notion/dist/style.css"; */
 @import "prismjs/themes/prism.css";
 @import "katex/dist/katex.min.css";
 
-html {
+body {
 	margin: 0;
+}
+
+.notion-page-content {
 	background-color: black;
 }
 
-.notion-text {
+.notion-text, .notion-gray, .notion-link, blockquote {
 	color: var(--notion-gray);
+}
+
+.notion-pink {
+	color: #E255A1;
+
 }
 </style>
