@@ -23,7 +23,7 @@ body {
 	margin: 0;
 }
 
-.notion-page-content {
+html, .notion-page-content {
 	background-color: black;
 }
 
@@ -33,6 +33,7 @@ body {
 
 .notion-pink {
 	color: #E255A1;
-
 }
+
+/* // TODO - Media queries for small screens */
 </style>
