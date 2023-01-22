@@ -27,6 +27,12 @@ html, .notion-page-content {
 	background-color: black;
 }
 
+@media only screen and (max-width: 960px) {
+	.notion-page {
+		width: 85%;
+	}
+}
+
 .notion-text, .notion-gray, .notion-link, blockquote {
 	color: var(--notion-gray);
 }
